@@ -1,10 +1,16 @@
 import React from "react";
 import Layout from "./Layout/Layout";
+import AppBar from "./AppBar/AppBar";
+import TaskForm from "./TaskForm/TaskForm";
 
 const App = () => {
     return(
         <Layout>
-            <p>nbfns</p>
+            <AppBar/>
+            <main>
+                <TaskForm/>
+
+            </main>
         </Layout>
     )
 }
